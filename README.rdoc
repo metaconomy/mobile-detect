@@ -1,0 +1,5 @@
+Mobile Detect
+===
+
+Based on mobile-fu
+https://github.com/brendanlim/mobile-fu
