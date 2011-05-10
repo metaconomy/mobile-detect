@@ -2,7 +2,7 @@ require 'rubygems'
 require 'rake'
 require 'echoe'
 
-Echoe.new('mobile-detect', '0.1.0') do |p|
+Echoe.new('mobile-detect', '0.2.0') do |p|
   p.description    = "Gemifying mobile-fu plugin"
   p.url            = "http://github.com/metaconomy/mobile-detect"
   p.author         = "Evgeniy Kelyarsky"
