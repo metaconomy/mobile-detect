@@ -100,3 +100,4 @@ module ActionController
 end
 
 ActionController::Base.send(:include, ActionController::MobileFu)
+Mime::Type.register_alias "text/html", :mobile
