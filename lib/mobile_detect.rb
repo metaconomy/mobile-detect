@@ -68,8 +68,8 @@ module ActionController
       
       def set_mobile_format
         if !request.xhr?
-          request.format = session[:mobile_view] == false ? :html : :mobile
-          session[:mobile_view] = true if session[:mobile_view].nil?
+          request.format = !session[:mobile_view] ? :html : :mobile
+          session[:mobile_view] = true if session[:mobile_view].nil? && is_mobile_device?
         end
       end
       
